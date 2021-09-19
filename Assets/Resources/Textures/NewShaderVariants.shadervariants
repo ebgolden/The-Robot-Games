@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON UNITY_UI_ALPHACLIP
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 10761, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+          _SUNDISK_HIGH_QUALITY
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+          _SUNDISK_HIGH_QUALITY
+        passType: 0
+  - first: {fileID: 10762, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _EMISSION
+        passType: 0
+  - first: {fileID: 4800000, guid: 73a8f0938aa9a92478bc7f59b9718f70, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+  - first: {fileID: 4800000, guid: 14eb328de4b8eb245bb7cea29e4ac00b, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_UI_CLIP_RECT
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON UNITY_UI_CLIP_RECT
+        passType: 0
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
